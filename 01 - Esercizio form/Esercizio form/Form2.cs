@@ -38,7 +38,10 @@ namespace Esercizio_form
 
         private void btnLeggiValore_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(txt.Text);
+            if(this.txt == null)
+                MessageBox.Show("Non é stato passato l'oggetto del textbox!");
+            else
+                MessageBox.Show(txt.Text);
         }
 
         private void btnInvia_Click(object sender, EventArgs e)

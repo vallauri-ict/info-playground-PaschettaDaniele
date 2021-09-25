@@ -32,6 +32,7 @@
             this.btnApriF2b = new System.Windows.Forms.Button();
             this.txtDaPassare = new System.Windows.Forms.TextBox();
             this.btnF2Controllo = new System.Windows.Forms.Button();
+            this.btnFormModale = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnApriF2
@@ -71,17 +72,29 @@
             this.btnF2Controllo.UseVisualStyleBackColor = true;
             this.btnF2Controllo.Click += new System.EventHandler(this.btnF2Controllo_Click);
             // 
+            // btnFormModale
+            // 
+            this.btnFormModale.Location = new System.Drawing.Point(70, 159);
+            this.btnFormModale.Name = "btnFormModale";
+            this.btnFormModale.Size = new System.Drawing.Size(100, 34);
+            this.btnFormModale.TabIndex = 4;
+            this.btnFormModale.Text = "Apri Form Modale";
+            this.btnFormModale.UseVisualStyleBackColor = true;
+            this.btnFormModale.Click += new System.EventHandler(this.btnFormModale_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(372, 173);
+            this.ClientSize = new System.Drawing.Size(372, 224);
+            this.Controls.Add(this.btnFormModale);
             this.Controls.Add(this.btnF2Controllo);
             this.Controls.Add(this.txtDaPassare);
             this.Controls.Add(this.btnApriF2b);
             this.Controls.Add(this.btnApriF2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,6 +106,7 @@
         private System.Windows.Forms.Button btnApriF2b;
         private System.Windows.Forms.TextBox txtDaPassare;
         private System.Windows.Forms.Button btnF2Controllo;
+        private System.Windows.Forms.Button btnFormModale;
     }
 }
 

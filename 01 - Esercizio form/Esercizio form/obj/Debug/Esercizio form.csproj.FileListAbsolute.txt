@@ -21,3 +21,16 @@ C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Te
 C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\Esercizio form\Esercizio form\obj\Debug\Esercizio form.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\Esercizio form\Esercizio form\obj\Debug\Esercizio form.exe
 C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\Esercizio form\Esercizio form\obj\Debug\Esercizio form.pdb
+C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\01 - Esercizio form\Esercizio form\bin\Debug\Esercizio form.exe.config
+C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\01 - Esercizio form\Esercizio form\bin\Debug\Esercizio form.exe
+C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\01 - Esercizio form\Esercizio form\bin\Debug\Esercizio form.pdb
+C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\01 - Esercizio form\Esercizio form\obj\Debug\Esercizio form.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\01 - Esercizio form\Esercizio form\obj\Debug\Esercizio_form.Form1.resources
+C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\01 - Esercizio form\Esercizio form\obj\Debug\Esercizio_form.Form2.resources
+C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\01 - Esercizio form\Esercizio form\obj\Debug\Esercizio_form.FormFiglia.resources
+C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\01 - Esercizio form\Esercizio form\obj\Debug\Esercizio_form.Properties.Resources.resources
+C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\01 - Esercizio form\Esercizio form\obj\Debug\Esercizio form.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\01 - Esercizio form\Esercizio form\obj\Debug\Esercizio form.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\01 - Esercizio form\Esercizio form\obj\Debug\Esercizio form.exe
+C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\01 - Esercizio form\Esercizio form\obj\Debug\Esercizio form.pdb
+C:\Users\user\Desktop\Robba\Scuola\Informatica\VisualStudio\Quarta\Esercizi - Teoria\01 - Esercizio form\Esercizio form\obj\Debug\Esercizio_form.FormModale.resources

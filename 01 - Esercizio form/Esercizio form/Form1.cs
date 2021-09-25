@@ -37,5 +37,20 @@ namespace Esercizio_form
             f2b.Text = "Form2 da designer con parametro";
             f2b.Show();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFormModale_Click(object sender, EventArgs e)
+        {
+            FormModale fm = new FormModale();
+            if (fm.ShowDialog() == DialogResult.OK)
+            {
+                MessageBox.Show("Premuto il pulsante OK\nNome: " + fm.nome + "\nEtà: " + fm.eta);
+            }
+            else MessageBox.Show("Premuto pulsante CANCEL");
+        }
     }
 }
