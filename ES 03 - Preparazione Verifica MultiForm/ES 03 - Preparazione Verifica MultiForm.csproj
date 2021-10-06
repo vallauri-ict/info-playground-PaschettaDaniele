@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9F24530F-71BD-4E16-B3FD-4BE59464346C}</ProjectGuid>
+    <ProjectGuid>{FEA0DC2F-9666-40E2-99A0-DA4F1DCE302F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_02___WindowsForms</RootNamespace>
-    <AssemblyName>02 - WindowsForms</AssemblyName>
+    <RootNamespace>ES_03___Preparazione_Verifica_MultiForm</RootNamespace>
+    <AssemblyName>ES 03 - Preparazione Verifica MultiForm</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -70,12 +70,6 @@
     <Compile Include="FormFiglia2.Designer.cs">
       <DependentUpon>FormFiglia2.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormInfo.Designer.cs">
-      <DependentUpon>FormInfo.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -89,9 +83,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormFiglia2.resx">
       <DependentUpon>FormFiglia2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormInfo.resx">
-      <DependentUpon>FormInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

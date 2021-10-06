@@ -71,5 +71,11 @@ namespace _02___WindowsForms
             if (frmEsci.ShowDialog() == DialogResult.Cancel)
                 e.Cancel = true;
         }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            FormInfo fi = new FormInfo();
+            fi.ShowDialog();
+        }
     }
 }

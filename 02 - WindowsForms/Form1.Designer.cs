@@ -99,14 +99,14 @@ namespace _02___WindowsForms
             // apriForm1ToolStripMenuItem
             // 
             this.apriForm1ToolStripMenuItem.Name = "apriForm1ToolStripMenuItem";
-            this.apriForm1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.apriForm1ToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.apriForm1ToolStripMenuItem.Text = "Apri Form &1";
             this.apriForm1ToolStripMenuItem.Click += new System.EventHandler(this.apriForm1ToolStripMenuItem_Click);
             // 
             // apriForm2ToolStripMenuItem
             // 
             this.apriForm2ToolStripMenuItem.Name = "apriForm2ToolStripMenuItem";
-            this.apriForm2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.apriForm2ToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.apriForm2ToolStripMenuItem.Text = "Apri Form &2";
             this.apriForm2ToolStripMenuItem.Click += new System.EventHandler(this.apriForm2ToolStripMenuItem_Click);
             // 
@@ -114,7 +114,7 @@ namespace _02___WindowsForms
             // 
             this.esciToolStripMenuItem.Name = "esciToolStripMenuItem";
             this.esciToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.esciToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.esciToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.esciToolStripMenuItem.Text = "Esci";
             this.esciToolStripMenuItem.Click += new System.EventHandler(this.esciToolStripMenuItem_Click);
             // 
@@ -129,8 +129,9 @@ namespace _02___WindowsForms
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(79, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem2.Text = "?";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // statusStrip1
             // 
