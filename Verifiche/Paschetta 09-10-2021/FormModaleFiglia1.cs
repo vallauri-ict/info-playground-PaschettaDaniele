@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ES_03___Preparazione_Verifica_MultiForm
+namespace Paschetta
 {
-    public partial class FormEsci : Form
+    public partial class FormModaleFiglia1 : Form
     {
-        public FormEsci()
+        public FormModaleFiglia1()
         {
             InitializeComponent();
-        }
-
-        private void FormEsci_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

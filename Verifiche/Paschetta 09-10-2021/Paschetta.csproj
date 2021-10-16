@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FEA0DC2F-9666-40E2-99A0-DA4F1DCE302F}</ProjectGuid>
+    <ProjectGuid>{8504A0F5-4DBB-4CB8-9259-0D23283B4DD6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ES_03___Preparazione_Verifica_MultiForm</RootNamespace>
-    <AssemblyName>ES 03 - Preparazione Verifica MultiForm</AssemblyName>
+    <RootNamespace>Paschetta</RootNamespace>
+    <AssemblyName>Paschetta</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -76,6 +76,18 @@
     <Compile Include="FormInfo.Designer.cs">
       <DependentUpon>FormInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormModaleFiglia1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModaleFiglia1.Designer.cs">
+      <DependentUpon>FormModaleFiglia1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModaleFiglia2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModaleFiglia2.Designer.cs">
+      <DependentUpon>FormModaleFiglia2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -92,6 +104,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormInfo.resx">
       <DependentUpon>FormInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModaleFiglia1.resx">
+      <DependentUpon>FormModaleFiglia1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModaleFiglia2.resx">
+      <DependentUpon>FormModaleFiglia2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

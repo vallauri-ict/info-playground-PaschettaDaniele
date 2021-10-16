@@ -8,18 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ES_03___Preparazione_Verifica_MultiForm
+namespace Paschetta
 {
-    public partial class FormEsci : Form
+    public partial class FormInfo : Form
     {
-        public FormEsci()
+        public FormInfo()
         {
             InitializeComponent();
         }
 
-        private void FormEsci_Load(object sender, EventArgs e)
+        private void FormInfo_Load(object sender, EventArgs e)
         {
-
+            label1.Text = "Programma creato da Paschetta Daniele\n4B INFO\nin data 09/10/2021\n\ncon l'obbiettivo: Verifica Informatica MultiForm";
         }
     }
 }

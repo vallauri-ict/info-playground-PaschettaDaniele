@@ -90,6 +90,7 @@ namespace ES_03___Preparazione_Verifica_MultiForm
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.ChbSediliStoffa);
             this.Controls.Add(this.ChbSediliPelle);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormFiglia1";

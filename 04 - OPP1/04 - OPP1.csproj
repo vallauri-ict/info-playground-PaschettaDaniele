@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FEA0DC2F-9666-40E2-99A0-DA4F1DCE302F}</ProjectGuid>
+    <ProjectGuid>{3A88B4DF-F27A-44B5-B809-54C0328C1CE7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ES_03___Preparazione_Verifica_MultiForm</RootNamespace>
-    <AssemblyName>ES 03 - Preparazione Verifica MultiForm</AssemblyName>
+    <RootNamespace>_04___OPP1</RootNamespace>
+    <AssemblyName>04 - OPP1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,46 +52,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormEsci.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormEsci.Designer.cs">
-      <DependentUpon>FormEsci.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormFiglia1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormFiglia1.Designer.cs">
-      <DependentUpon>FormFiglia1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormFiglia2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormFiglia2.Designer.cs">
-      <DependentUpon>FormFiglia2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormInfo.Designer.cs">
-      <DependentUpon>FormInfo.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangle.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormEsci.resx">
-      <DependentUpon>FormEsci.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormFiglia1.resx">
-      <DependentUpon>FormFiglia1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormFiglia2.resx">
-      <DependentUpon>FormFiglia2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormInfo.resx">
-      <DependentUpon>FormInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace ES_03___Preparazione_Verifica_MultiForm
 {
-    public partial class FormEsci : Form
+    public partial class FormInfo : Form
     {
-        public FormEsci()
+        public FormInfo()
         {
             InitializeComponent();
         }
 
-        private void FormEsci_Load(object sender, EventArgs e)
+        private void FormInfo_Load(object sender, EventArgs e)
         {
-
+            label1.Text = "Programma creato da Daniele Paschetta 4B informatica";
         }
     }
 }

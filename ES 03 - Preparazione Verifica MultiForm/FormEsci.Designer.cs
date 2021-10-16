@@ -71,10 +71,12 @@ namespace ES_03___Preparazione_Verifica_MultiForm
             this.Controls.Add(this.BtnOk);
             this.Controls.Add(this.BtnAnulla);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormEsci";
             this.Text = "FormEsci";
+            this.Load += new System.EventHandler(this.FormEsci_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

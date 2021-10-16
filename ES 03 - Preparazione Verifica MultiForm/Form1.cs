@@ -68,5 +68,12 @@ namespace ES_03___Preparazione_Verifica_MultiForm
             ff2.Text = "Macchina selezionata";
             ff2.Show();
         }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            FormInfo ffi = new FormInfo();
+            ffi.Text = "informazioni";
+            ffi.ShowDialog();
+        }
     }
 }

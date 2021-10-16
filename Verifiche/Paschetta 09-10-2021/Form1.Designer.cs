@@ -1,5 +1,5 @@
 ﻿
-namespace ES_03___Preparazione_Verifica_MultiForm
+namespace Paschetta
 {
     partial class Form1
     {
@@ -34,9 +34,9 @@ namespace ES_03___Preparazione_Verifica_MultiForm
             this.apri1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.apri2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.esciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.infoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.Tssl1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.ssLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.infoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -49,8 +49,8 @@ namespace ES_03___Preparazione_Verifica_MultiForm
             this.infoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(617, 24);
-            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Size = new System.Drawing.Size(624, 24);
+            this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // menuToolStripMenuItem
@@ -66,14 +66,14 @@ namespace ES_03___Preparazione_Verifica_MultiForm
             // apri1ToolStripMenuItem
             // 
             this.apri1ToolStripMenuItem.Name = "apri1ToolStripMenuItem";
-            this.apri1ToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.apri1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.apri1ToolStripMenuItem.Text = "Apri &1";
             this.apri1ToolStripMenuItem.Click += new System.EventHandler(this.apri1ToolStripMenuItem_Click);
             // 
             // apri2ToolStripMenuItem
             // 
             this.apri2ToolStripMenuItem.Name = "apri2ToolStripMenuItem";
-            this.apri2ToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.apri2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.apri2ToolStripMenuItem.Text = "Apri &2";
             this.apri2ToolStripMenuItem.Click += new System.EventHandler(this.apri2ToolStripMenuItem_Click);
             // 
@@ -81,9 +81,25 @@ namespace ES_03___Preparazione_Verifica_MultiForm
             // 
             this.esciToolStripMenuItem.Name = "esciToolStripMenuItem";
             this.esciToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.esciToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
-            this.esciToolStripMenuItem.Text = "&Esci";
+            this.esciToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.esciToolStripMenuItem.Text = "Esci";
             this.esciToolStripMenuItem.Click += new System.EventHandler(this.esciToolStripMenuItem_Click);
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ssLabel});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 303);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(624, 22);
+            this.statusStrip1.TabIndex = 2;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // ssLabel
+            // 
+            this.ssLabel.Name = "ssLabel";
+            this.ssLabel.Size = new System.Drawing.Size(118, 17);
+            this.ssLabel.Text = "toolStripStatusLabel1";
             // 
             // infoToolStripMenuItem
             // 
@@ -92,22 +108,6 @@ namespace ES_03___Preparazione_Verifica_MultiForm
             this.infoToolStripMenuItem.Name = "infoToolStripMenuItem";
             this.infoToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
             this.infoToolStripMenuItem.Text = "&Info";
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.Tssl1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 251);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(617, 22);
-            this.statusStrip1.TabIndex = 6;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // Tssl1
-            // 
-            this.Tssl1.Name = "Tssl1";
-            this.Tssl1.Size = new System.Drawing.Size(64, 17);
-            this.Tssl1.Text = "Benvenuto";
             // 
             // toolStripMenuItem2
             // 
@@ -120,7 +120,7 @@ namespace ES_03___Preparazione_Verifica_MultiForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(617, 273);
+            this.ClientSize = new System.Drawing.Size(624, 325);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
@@ -128,6 +128,7 @@ namespace ES_03___Preparazione_Verifica_MultiForm
             this.Name = "Form1";
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
@@ -144,9 +145,9 @@ namespace ES_03___Preparazione_Verifica_MultiForm
         private System.Windows.Forms.ToolStripMenuItem apri1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem apri2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem esciToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem infoToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripStatusLabel Tssl1;
+        private System.Windows.Forms.ToolStripStatusLabel ssLabel;
+        private System.Windows.Forms.ToolStripMenuItem infoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
     }
 }

@@ -1,6 +1,7 @@
-﻿namespace Esercizio_form
+﻿
+namespace Paschetta
 {
-    partial class FormFiglia
+    partial class FormModaleFiglia2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +29,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnFigliaDiChi = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btnFigliaDiChi
+            // label1
             // 
-            this.btnFigliaDiChi.Location = new System.Drawing.Point(12, 12);
-            this.btnFigliaDiChi.Name = "btnFigliaDiChi";
-            this.btnFigliaDiChi.Size = new System.Drawing.Size(177, 46);
-            this.btnFigliaDiChi.TabIndex = 0;
-            this.btnFigliaDiChi.Text = "Di chi sono figlia?";
-            this.btnFigliaDiChi.UseVisualStyleBackColor = true;
-            this.btnFigliaDiChi.Click += new System.EventHandler(this.btnFigliaDiChi_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(25, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "label1";
             // 
-            // FormFiglia
+            // FormModaleFiglia2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(201, 70);
-            this.Controls.Add(this.btnFigliaDiChi);
-            this.Name = "FormFiglia";
-            this.Text = "FormFiglia";
-            this.Load += new System.EventHandler(this.FormFiglia_Load);
+            this.ClientSize = new System.Drawing.Size(347, 130);
+            this.Controls.Add(this.label1);
+            this.Name = "FormModaleFiglia2";
+            this.Text = "FormModaleFiglia2";
+            this.Load += new System.EventHandler(this.FormModaleFiglia2_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnFigliaDiChi;
+        private System.Windows.Forms.Label label1;
     }
 }
